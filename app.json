@@ -1,21 +1,21 @@
 {
-  "name": "Mention All Bot",
-  "description": "A simple mention all for telegram.",
+  "name": "Kelime botu",
+  "description": "Kelime oyunu için bot.",
   "env": {
     "TOKEN": {
-      "description": "Enter bot token.",
-      "value": ""
+      "description": "Bot tokeni gir..",
+      "value": "hey"
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal.",
-      "value": ""
+      "description": "my.telegram.ord'dan al loo.",
+      "value": "n'aber?"
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal.",
-      "value": ""
+      "description": "my.telegram.ord'dan al loo..",
+      "value": "n'apıyorsun?"
     },
-    "USERNAME":{
-      "description": Kullanıcı adı gir işte ab.
+    "USERNAME": {
+      "description": "Kullanıcı adı gir işte ab."
       "value": "@qiyascc"
     }
   },
