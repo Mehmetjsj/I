@@ -1,25 +1,50 @@
 {
-  "name": "Kelime botu",
-  "description": "Kelime oyunu için bot.",
-  "env": {
-    "TOKEN": {
-      "description": "Bot tokeni gir..",
-      "value": "hey"
+    "name": "Kelime botu",
+    "description": "Bot işte amk.",
+    "keywords": [
+        "ZAA",
+        "Adam ya adam",
+        "Armanç",
+        "Bot",
+        "Kelime"
+    ],
+    "repository": "https://github.com/Mehmetjsj/I",
+    "success_url": "https://t.me/qiyascc",
+    "image": "heroku/python",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
     },
-    "APP_ID": {
-      "description": "my.telegram.ord'dan al loo.",
-      "value": "n'aber?"
+    "env": {
+        "API_HASH": {
+            "description": "ağla amk.",
+            "value": "",
+            "required": true
+        },
+        "API_ID": {
+            "description": "Biryerlerden bul mk.",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "Bot tokeni gir mk.",
+            "value": "zaa",
+            "required": true
+        },
+        "USERNAME": {
+            "description": "Kullanıcı adı gir mk.",
+            "value": "@qiyascc",
+            "required": true
+        }
     },
-    "API_HASH": {
-      "description": "my.telegram.ord'dan al loo..",
-      "value": "n'apıyorsun?"
-    },
-    "USERNAME": {
-      "description": "Kullanıcı adı gir işte ab."
-      "value": "@qiyascc"
-    }
-  },
-  "buildpacks": [{
-    "url": "https://github.com/heroku/heroku-buildpack-python.git"
-  }]
+    "buildpacks": [
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        },
+        {
+            "url": "heroku/python"
+        }
+    ]
 }
